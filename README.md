@@ -5,7 +5,6 @@ Read Codex JSONL sessions from `~/.codex/sessions` and view them in a local HTML
 ## Build A Standalone HTML File
 
 ```bash
-cd /mnt/afs/hxx_data/py/codex-session-viewer
 python -m codex_session_viewer build --output codex-sessions.html
 ```
 
@@ -14,7 +13,6 @@ Open `codex-sessions.html` in a browser. The file is self-contained and does not
 ## Serve Locally
 
 ```bash
-cd /mnt/afs/hxx_data/py/codex-session-viewer
 python -m codex_session_viewer serve --port 12001
 ```
 
